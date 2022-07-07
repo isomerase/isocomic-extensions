@@ -4,6 +4,7 @@
   "description": "extensions for isocomic",
   "private": true,
   "author": "isomerase",
+  "license": "Apache-2.0",
   "scripts": {
     "prebuild": "cd src/$npm_config_id && npm install --omit dev",
     "build": "cd src/$npm_config_id && npm build",

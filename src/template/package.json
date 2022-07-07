@@ -1,11 +1,10 @@
 {
   "name": "@isocomic/template",
   "version": "0.0.1",
-  "description": "",
   "private": true,
-  "author": "",
+  "author": "isomerase",
   "main": "src/index",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "webpack --config ../../webpack.config.js"
   },
