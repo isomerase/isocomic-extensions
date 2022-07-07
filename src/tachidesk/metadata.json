@@ -1,0 +1,8 @@
+{
+  "id": "tachidesk",
+  "name": "Tachidesk",
+  "website": "https://github.com/Suwayomi/Tachidesk-Server",
+  "version": "0.0.1",
+  "language": "all",
+  "iconUrl": "https://raw.githubusercontent.com/Suwayomi/Tachidesk-Server/master/server/src/main/resources/icon/faviconlogo.ico"
+}
