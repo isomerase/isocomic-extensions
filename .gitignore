@@ -11,5 +11,8 @@ yarn-debug.log*
 yarn-error.log*
 .yarn
 .pnpm-debug.log
-
+src/**/package-lock.json
 dist
+src/*
+!src/template
+!src/tachidesk
