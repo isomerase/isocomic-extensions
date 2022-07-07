@@ -4,5 +4,5 @@
   "website": "https://github.com/Suwayomi/Tachidesk-Server",
   "version": "0.0.1",
   "language": "all",
-  "iconUrl": "https://raw.githubusercontent.com/Suwayomi/Tachidesk-Server/master/server/src/main/resources/icon/faviconlogo.ico"
+  "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/a8cb5c2794c91ed104e0383b3fe8d330bb9ea316/src/all/tachidesk/res/mipmap-xxhdpi/ic_launcher.png"
 }

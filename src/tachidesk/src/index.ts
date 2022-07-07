@@ -23,7 +23,7 @@ const sourcesFilter: SelectListFilter = {
 const orderFilter: SelectListFilter = {
   type: "SELECTLIST",
   key: "order",
-  label: "order",
+  label: "Order",
   entryValues: ["popular", "latest"],
   entryLabels: ["popular", "latest"],
 }
