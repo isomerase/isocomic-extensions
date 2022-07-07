@@ -1,0 +1,8 @@
+{
+  "id": "mangadex",
+  "name": "MangaDex(EN)",
+  "website": "https://mangadex.org/",
+  "version": "0.0.1",
+  "language": "en",
+  "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/all/mangadex/res/mipmap-xxhdpi/ic_launcher.png"
+}
