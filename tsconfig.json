@@ -1,4 +1,6 @@
 {
+  // this file does nothing about compiling the ts files
+  // it is used by vscode to find the ts files
   "extends": "./tsconfig.base.json",
   "include": [
     "src",

@@ -6,12 +6,17 @@
   "author": "isomerase",
   "license": "Apache-2.0",
   "scripts": {
-    "prebuild": "cd src/$npm_config_id && npm install --omit dev",
-    "build": "cd src/$npm_config_id && npm build",
-    "postbuild": "cp src/$npm_config_id/dist/extension.js dist/$npm_config_id.min.js",
-    "create": "cp -r src/template src/$npm_config_id && cd src/$npm_config_id && sed -i '' s/template/$npm_config_id/g src/*.ts metadata.json package.json "
+    "prebuild": "cd src/$npm_config_id && npm install --omit=dev",
+    "build": "cd src/$npm_config_id && npm run build",
+    "postbuild": "mkdir -p dist && cp src/$npm_config_id/dist/extension.js dist/$npm_config_id.min.js",
+    "build:all": "npm run build --id=template && npm run build --id=tachidesk",
+    "create": "cp -r src/template src/$npm_config_id && cd src/$npm_config_id && sed -i '' s/template/$npm_config_id/g src/*.ts metadata.json package.json"
   },
   "devDependencies": {
-    "@types/node": "^17.0.41"
+    "@types/node": "^17.0.41",
+    "typescript": "^4.5.4",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
