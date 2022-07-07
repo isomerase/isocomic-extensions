@@ -1,0 +1,18 @@
+{
+  "name": "@isocomic/template",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "author": "",
+  "main": "src/index",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --config ../../webpack.config.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

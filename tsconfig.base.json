@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "target": "es2021",
+    "paths": {
+      "@utils/*": [
+        "utils/*",
+      ],
+    },
+    "lib": [
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "CommonJS",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": "."
+  },
+  "include": [
+    // note: dont't include src folder
+    // otherwise all extensions will be compiled at the same time
+    "types",
+  ]
+}
