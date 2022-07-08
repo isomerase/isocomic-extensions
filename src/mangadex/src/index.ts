@@ -64,9 +64,10 @@ export class CreateSource implements Source {
   private async fetchSouceMangasBasic(url: string): Promise<SMangaList> {
     const mangaListDto = await this.fetchJSON(url) as MangaListDto
     const mangas = parseMangaListDto(mangaListDto, this.lang)
+    const totalPage = Math.ceil(mangaListDto.total / mangaListDto.limit)
     return {
       mangas,
-      totalPage: Infinity,
+      totalPage,
     }
   }
 
@@ -121,6 +122,10 @@ export class CreateSource implements Source {
       .filter(it => it.type === MDConstants.manga)
       .map(it => it.id))
 
+    if (mangaIds.length === 0) {
+      throw new Error("No manga found")
+    }
+
     const mangaUrlObj = new URL(MDConstants.apiMangaUrl)
     for (const id of mangaIds) {
       mangaUrlObj.searchParams.append("ids[]", id)
@@ -137,7 +142,11 @@ export class CreateSource implements Source {
     mangaUrlObj.searchParams.append("contentRating[]", "suggestive")
     mangaUrlObj.searchParams.append("contentRating[]", "erotica")
     mangaUrlObj.searchParams.append("contentRating[]", "pornographic")
-    return this.fetchSouceMangasBasic(mangaUrlObj.href)
+    const { mangas } = await this.fetchSouceMangasBasic(mangaUrlObj.href)
+    return {
+      mangas,
+      totalPage: Infinity
+    }
   }
 
   async fetchSourceManga(mangaUrl: string): Promise<SManga> {
