@@ -12,10 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
-          cache: npm
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: Build all extenions
         run: npm run build:all
       - name: Archive build
