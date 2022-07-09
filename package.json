@@ -6,12 +6,11 @@
   "author": "isomerase",
   "license": "Apache-2.0",
   "scripts": {
-    "prebuild": "cd src/$npm_config_id && npm install --omit=dev",
-    "build": "cd src/$npm_config_id && npm run build",
-    "postbuild": "mkdir -p dist && cp src/$npm_config_id/dist/extension.js dist/$npm_config_id.min.js",
-    "build:all": "for f in $(ls src); do npm run build --id=$f; done;",
-    "create": "cp -r src/template src/$npm_config_id && cd src/$npm_config_id && sed -i '' s/template/$npm_config_id/g src/*.ts metadata.json package.json",
-    "serve": "serve -C dist -l 4129"
+    "build": "bash ./scripts/build.sh",
+    "build:all": "ls src | xargs -P 4 -I _ npm run build _",
+    "build:all:seq": "for f in $(ls src); do npm run build $f; done;",
+    "create": "bash ./scripts/create-from-template.sh",
+    "serve": "serve -C dist -l ${PORT:=4129}"
   },
   "devDependencies": {
     "@types/node": "^17.0.41",
