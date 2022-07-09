@@ -10,9 +10,9 @@ Similar to [**Tachiyomi-extensions**](https://github.com/tachiyomiorg/tachiyomi-
 
 ## Extensions in the repo
 
-- [template](https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/template.min.js): extension template, you can copy it and develop a new extension
-- [tachidesk](https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/tachidesk.min.js): a client for [Tachidesk-Server](https://github.com/Suwayomi/Tachidesk-Server), (depend on your browser's [security policy](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content), you might need to enable HTTPS on your tachidesk server)
-- [mangadex](https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/mangadex.min.js): a more complex extension to show how isocomic-extension work
+- [template](https://isocomic.com/?install_url=https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/template.min.js): extension template, you can copy it and develop a new extension
+- [tachidesk](https://isocomic.com/?install_url=https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/tachidesk.min.js): a client for [Tachidesk-Server](https://github.com/Suwayomi/Tachidesk-Server), (depend on your browser's [security policy](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content), you might need to enable HTTPS on your tachidesk server)
+- [mangadex](https://isocomic.com/?install_url=https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/dist/mangadex.min.js): a more complex extension to show how isocomic-extension work
 
 ## How to use isoComic-extension?
 
