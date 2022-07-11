@@ -1,5 +1,7 @@
 # isoComic extensions
 
+Extensions for [isocomic.com](https://isocomic.com)
+
 ## What is isoComic?
 
 Similar to [**Tachiyomi**](https://github.com/tachiyomiorg/tachiyomi), isoComic is a plugin-based manga reader in **browser**. Thanks to the browser's cross-platform ability, you can read any comic from any source on many platforms in isoComic.
@@ -7,6 +9,11 @@ Similar to [**Tachiyomi**](https://github.com/tachiyomiorg/tachiyomi), isoComic 
 ## What is isoComic-extension?
 
 Similar to [**Tachiyomi-extensions**](https://github.com/tachiyomiorg/tachiyomi-extensions), an isoComic extension is just a single javascript file, which defines what and how the data is fetched from the network.
+
+## Screenshots
+| Home Page | Source Page | Manga Page | Reader Page |
+|----|----|----|----|
+|![Home Page](https://github.com/isomerase/isocomic-extensions/raw/repo/screenshots/isocomic.com_1.webp)|![Source Page](https://github.com/isomerase/isocomic-extensions/raw/repo/screenshots/isocomic.com_2.webp)|![Manga Page](https://github.com/isomerase/isocomic-extensions/raw/repo/screenshots/isocomic.com_3.webp)|![Reader Page](https://github.com/isomerase/isocomic-extensions/raw/repo/screenshots/isocomic.com_4.webp)|
 
 ## Extensions in the repo
 
