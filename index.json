@@ -1,0 +1,38 @@
+{
+  "url": "https://raw.githubusercontent.com/isomerase/isocomic-extensions/repo/index.json",
+  "extensions": {
+    "mangadex": {
+      "url": "./dist/mangadex.min.js",
+      "metadata": {
+        "id": "mangadex",
+        "name": "MangaDex(EN)",
+        "website": "https://mangadex.org/",
+        "version": "0.0.1",
+        "language": "en",
+        "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/all/mangadex/res/mipmap-xxhdpi/ic_launcher.png"
+      }
+    },
+    "tachidesk": {
+      "url": "./dist/tachidesk.min.js",
+      "metadata": {
+        "id": "tachidesk",
+        "name": "Tachidesk",
+        "website": "https://github.com/Suwayomi/Tachidesk-Server",
+        "version": "0.0.1",
+        "language": "all",
+        "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/all/tachidesk/res/mipmap-xxhdpi/ic_launcher.png"
+      }
+    },
+    "template": {
+      "url": "./dist/template.min.js",
+      "metadata": {
+        "id": "template",
+        "name": "template",
+        "website": "https://template.com",
+        "version": "0.0.1",
+        "language": "all",
+        "iconUrl": ""
+      }
+    }
+  }
+}
