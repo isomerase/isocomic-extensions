@@ -7,7 +7,9 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "bash ./scripts/build.sh",
+    "build-index": "node ./scripts/build-index.js",
     "build:all": "ls src | xargs -P 4 -I _ npm run build _",
+    "postbuild:all": "npm run build-index $(ls src)",
     "build:all:seq": "for f in $(ls src); do npm run build $f; done;",
     "create": "bash ./scripts/create-from-template.sh",
     "serve": "serve -C dist -l ${PORT:=4129}"
