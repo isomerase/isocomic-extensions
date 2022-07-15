@@ -1,0 +1,9 @@
+{
+  "id": "ehentai",
+  "name": "E-Hentai",
+  "website": "https://e-hentai.org/",
+  "version": "0.0.1",
+  "language": "all",
+  "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/all/ehentai/res/mipmap-xxhdpi/ic_launcher.png",
+  "baseUrl": "https://e-hentai.org"
+}

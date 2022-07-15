@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist", /* Specify an output folder for all emitted files. */
+    "noImplicitAny": false, /* Warn on expressions and declarations with an implied 'any' type. */
+  },
+}

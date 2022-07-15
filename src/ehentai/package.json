@@ -1,0 +1,10 @@
+{
+  "name": "@isocomic/ehentai",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "webpack --config ../../webpack.config.js"
+  }
+}
