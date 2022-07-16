@@ -1,6 +1,6 @@
 cd src/$1
 npm install --omit=dev
-npm run build
+npx webpack --config ../../webpack.config.js
 cd ../..
 mkdir -p dist
 cp src/$1/dist/extension.js dist/$1.min.js

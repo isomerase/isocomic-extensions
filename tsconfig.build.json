@@ -4,6 +4,8 @@
     "experimentalDecorators": true,
     "incremental": true,
     "target": "es2021",
+    "outDir": "dist",
+    "noImplicitAny": false,
     "paths": {
       "@utils/*": [
         "utils/*",
