@@ -24,6 +24,19 @@
         "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/all/mangadex/res/mipmap-xxhdpi/ic_launcher.png"
       }
     },
+    "picacomic": {
+      "url": "./dist/picacomic.min.js",
+      "metadata": {
+        "id": "picacomic",
+        "name": "嗶咔漫畫",
+        "website": "https://www.picacomic.com/",
+        "version": "0.0.1",
+        "language": "zh",
+        "iconUrl": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/master/src/zh/picacomic/res/mipmap-hdpi/ic_launcher.png",
+        "baseUrl": "https://picaapi.picacomic.com",
+        "useCredentials": true
+      }
+    },
     "tachidesk": {
       "url": "./dist/tachidesk.min.js",
       "metadata": {
